@@ -1,0 +1,26 @@
+#line {
+    stroke: black;
+    stroke-width: 1;
+    min-height: 310px;
+}
+
+.container {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    top: 50px;
+}
+
+#spinner {
+    animation: spin 60s linear infinite;
+    position: absolute;
+    transform-origin: inherit;
+    border: none;
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
