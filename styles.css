@@ -12,9 +12,19 @@
   top: 50px;
 }
 
+#timer {
+  position: relative;
+  top: 52%;
+  left: 45%;
+}
+
 #spinner {
   position: absolute;
   border: none;
+}
+
+.stop-timer {
+  animation-play-state: paused;
 }
 
 .spin-animation {
