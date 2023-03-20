@@ -13,10 +13,27 @@
 }
 
 #spinner {
-    animation: spin 60s linear infinite;
     position: absolute;
-    transform-origin: inherit;
     border: none;
+}
+
+.spin-animation {
+    animation: spin 60s linear infinite;
+    transform-origin: inherit;
+}
+
+.buttons-container {
+    width: fit-content;
+    height: 72px;
+    position: relative;
+    left: 45%;
+
+    &>button {
+        border: none;
+        background-color: inherit;
+        margin: 8px;
+        cursor: pointer;
+    }
 }
 
 @keyframes spin {
