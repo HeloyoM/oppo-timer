@@ -1,6 +1,7 @@
 # oppo-timer
 
-Created demo of animation oppo devices timer  
+<p align="center"> Did you see ever the nicly stopwatch of Oppo devices? </p>
+<p align="center">So I created one in plain js with a littel bit scss</p>
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/0/0a/OPPO_LOGO_2019.svg" width=90 height=90/>
 
